@@ -2,6 +2,7 @@
 
 .contact-div-main {
   display: flex;
+  flex-wrap: wrap; // handles mobile responsiveness better
 }
 
 .dark-mode a {
@@ -24,6 +25,21 @@
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
+  display: block;
+
+  // Add icons
+  &::before {
+    margin-right: 10px;
+    font-size: 32px;
+  }
+}
+
+.contact-detail::before {
+  content: "📞";
+}
+
+.contact-detail-email::before {
+  content: "✉️";
 }
 
 .contact-detail:hover,
@@ -52,14 +68,8 @@
   margin-top: -4rem;
 }
 
-/* Media Query */
+/* Media Queries for responsiveness */
 @media (max-width: 1380px), (max-width: 768px) {
-  .contact-title {
-    font-size: 56px;
-    font-weight: 400;
-    text-align: center;
-  }
-
   .contact-title {
     font-size: 40px;
     text-align: center;
@@ -79,6 +89,8 @@
   .contact-detail,
   .contact-detail-email {
     font-size: 20px;
+    display: block;
+    margin: 1rem 0;
   }
 
   .contact-image-div {
