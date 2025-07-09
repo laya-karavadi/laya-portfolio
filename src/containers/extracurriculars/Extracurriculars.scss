@@ -1,1 +1,66 @@
-@import "../workExperience/WorkExperience.scss";
+.experience-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  
+  .experience-heading {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+  }
+  
+  .experience-card {
+    background-color: var(--light-card-bg);
+    border-radius: 10px;
+    box-shadow: var(--light-shadow);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  .experience-card.dark {
+    background-color: var(--dark-card-bg);
+    box-shadow: var(--dark-shadow);
+  }
+  
+  .experience-card-logo {
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-card-body {
+    text-align: center;
+  }
+  
+  .experience-card-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .experience-card-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+  
+  .experience-card-duration {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+  }
+  
+  .experience-card-description {
+    font-size: 14px;
+  }
+  

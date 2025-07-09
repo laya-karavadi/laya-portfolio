@@ -244,29 +244,59 @@ const twitterDetails = {
 
 export const extracurriculars = {
   display: true,
-  experience: [
+  clubs: [
     {
-      company: "Alpha Delta Pi",
+      name: "Alpha Delta Pi, Epsilon Eta",
       role: "New Member Academic Specialist",
-      date: "Aug 2023 - Present",
-      companylogo: "url-to-logo-or-placeholder.png", // optional or leave blank
-      desc: "Led academic programs and community engagement events for 50+ members.",
-      descBullets: [
-        "Organized tutoring sessions for new members.",
-        "Collaborated on academic workshops."
-      ]
+      date: "Fall 2024 – Present",
+      desc: "Facilitated academic success initiatives and study programs for new members.",
+      logo_path: "adpiLogo.png",
+      link: "https://www.instagram.com/msuadpi/" 
     },
     {
-      company: "Bagley Ambassadors",
+      name: "Bagley Ambassadors",
       role: "Secretary",
-      date: "Aug 2022 - Present",
-      companylogo: "",
-      desc: "Managed communications and coordinated campus tours.",
-      descBullets: ["Planned events for prospective students.", "Supported new ambassador training."]
+      date: "Jan 2024 - Present",
+      desc: "Represent the College of Engineering at university and outreach events.",
+      logo_path: "bagleyLogo.png",
+      link: "https://www.bagley.msstate.edu/bagleyambassadors/"
     },
-    // add more as needed
-  ]
+    {
+      name: "Honors Council",
+      role: "Member",
+      logo_path: "hocoLogo.png",
+      date: "Aug 2023 - Present",
+      desc: "Help organize events and policy discussions for the Shackouls Honors College.",
+      link: "https://www.instagram.com/honorscouncil_msu/"
+    },
+    {
+      name: "Society of Women Engineers",
+      role: "Member",
+      logo_path: "sweLogo.png",
+      date: "Aug 2023 - Present",
+      desc: "Engage with engineering outreach, networking, and leadership development.",
+      link: "https://www.instagram.com/swemsu/"
+    },
+    {
+      name: "Association of Computing Machinery",
+      role: "Member",
+      logo_path: "acmLogo.png",
+      date: "Jan 2024 - Present",
+      desc: "Participate in hackathons, technical talks, and collaborative projects.",
+      link: "https://www.instagram.com/msstate_acm/"
+    },
+    {
+      name: "AI Club",
+      role: "Member",
+      logo_path: "aiLogo.png",
+      date: "Jan 2024 - Present",
+      desc: "Explore machine learning topics through workshops and speaker series.",
+      link: "https://www.instagram.com/msuaiclub/"
+    }
+  ],
+
 };
+
 
 
 const isHireable = true;
