@@ -112,7 +112,7 @@ const workExperiences = {
 
 const openSource = {
   showGithubProfile: "true",
-  display: true
+  display: false
 };
 
 const bigProjects = {
@@ -241,6 +241,33 @@ const twitterDetails = {
   userName: "",
   display: false
 };
+
+export const extracurriculars = {
+  display: true,
+  experience: [
+    {
+      company: "Alpha Delta Pi",
+      role: "New Member Academic Specialist",
+      date: "Aug 2023 - Present",
+      companylogo: "url-to-logo-or-placeholder.png", // optional or leave blank
+      desc: "Led academic programs and community engagement events for 50+ members.",
+      descBullets: [
+        "Organized tutoring sessions for new members.",
+        "Collaborated on academic workshops."
+      ]
+    },
+    {
+      company: "Bagley Ambassadors",
+      role: "Secretary",
+      date: "Aug 2022 - Present",
+      companylogo: "",
+      desc: "Managed communications and coordinated campus tours.",
+      descBullets: ["Planned events for prospective students.", "Supported new ambassador training."]
+    },
+    // add more as needed
+  ]
+};
+
 
 const isHireable = true;
 
