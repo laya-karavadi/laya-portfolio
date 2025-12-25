@@ -35,7 +35,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "AI Engineer | XAI Researcher | Technical Leader",
+  subTitle: "AI Engineer | Data Storyteller | Technical Leader",
   skills: [
     emoji("⚡ Develop Agentic AI and LLM pipelines using Gemini and FastAPI for retail and logistics insights"),
     emoji("⚡ Apply Explainable AI (XAI) to ensure model transparency and auditability in high stakes domains"),
