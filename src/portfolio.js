@@ -22,7 +22,7 @@ const greeting = {
     "A sophomore AI student passionate about intelligent systems and their impact. I’m actively seeking internships in machine learning and related fields, blending technical skills with curiosity, thoughtful design, and a drive to make a meaningful difference. Open to work and excited to learn."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bbu__suuygKEQeOpgnBMEY45hAyrDNOH/view?usp=drive_link",
+    "https://drive.google.com/file/d/1JddLd2_GxGn6w4ziAikFGGE_cRVDwfCY/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -35,12 +35,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "AI & ML Developer | Robotics Researcher | Technical Leader",
+  subTitle: "AI Engineer | XAI Researcher | Technical Leader",
   skills: [
-    emoji("⚡ Build ML models (YOLO, PyTorch) for computer vision & autonomous systems"),
-    emoji("⚡ Develop and explain AI models with Grad-CAM, Eigen-CAM, and statistical methods"),
-    emoji("⚡ Automate data pipelines for secure and efficient research workflows"),
-    emoji("⚡ Build educational tools and teach ML/CS as a Teaching Assistant")
+    emoji("⚡ Develop Agentic AI and LLM pipelines using Gemini and FastAPI for retail and logistics insights"),
+    emoji("⚡ Apply Explainable AI (XAI) to ensure model transparency and auditability in high stakes domains"),
+    emoji("⚡ Architect secure, PII compliant ETL pipelines and MLOps workflows using Docker and SQL"),
+    emoji("⚡ Share my love for AI while speaking to crowds over 300 hundred prospective families and donors as a Bagley Ambassador"),
+    emoji("⚡ Empower 200+ members toward academic success as a New Member Academic Specialist for ADPi"),
+    emoji("⚡ Mentor students in Data Structures and Algorithmic efficiency as a University Teaching Assistant")
   ],
   softwareSkills: [
     { skillName: "python", fontAwesomeClassname: "fab fa-python" },
@@ -120,6 +122,18 @@ const bigProjects = {
   subtitle: "Research & Academic Projects",
   projects: [
     {
+      image: require("./assets/images/fedex.png"),
+      projectName: "Logistics Dashboard",
+      projectDesc: "Designed enterprise visualization tools with FedEx to identify operational trends and bottlenecks via data storytelling.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/sentiment.png"),
+      projectName: "Retail Insight Engine",
+      projectDesc: "Built full-stack NLP pipelines with Gemini API to transform unstructured reviews into actionable retail insights.",
+      footerLink: []
+    },
+    {
       image: require("./assets/images/WRFLogo.png"),
       projectName: "Urban Wind Modeling with WRF",
       projectDesc: "Built computational wind simulations and enhanced predictive accuracy by 70%.",
@@ -128,7 +142,7 @@ const bigProjects = {
     {
       image: require("./assets/images/battlesnakeLogo.png"),
       projectName: "Snake Game AI",
-      projectDesc: "Implemented Minimax + Alpha-Beta pruning for intelligent game strategy.",
+      projectDesc: "Implemented Minimax + Alpha-Beta pruning for an autonomous agent with 100% test survival.",
       footerLink: []
     }
   ],
