@@ -19,7 +19,7 @@ const greeting = {
   username: "Laya Karavadi",
   title: "Hi, I'm Laya ",
   subTitle: emoji(
-    "A sophomore AI student passionate about intelligent systems and their impact. I’m actively seeking internships in machine learning and related fields, blending technical skills with curiosity, thoughtful design, and a drive to make a meaningful difference. Open to work and excited to learn."
+    "A senior Artificial Intelligence student passionate about scalable data engineering, applied AI, and enterprise analytics. Experienced in building production ETL pipelines, predictive models, and BI decision tools across logistics and heavy manufacturing."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1JddLd2_GxGn6w4ziAikFGGE_cRVDwfCY/view?usp=sharing",
@@ -35,24 +35,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "AI Engineer | Data Storyteller | Technical Leader",
+  subTitle: "Data & AI Engineer | BI & Analytics Specialist | Technical Leader",
   skills: [
-    emoji("⚡ Develop Agentic AI and LLM pipelines using Gemini and FastAPI for retail and logistics insights"),
-    emoji("⚡ Apply Explainable AI (XAI) to ensure model transparency and auditability in high stakes domains"),
-    emoji("⚡ Architect secure, PII compliant ETL pipelines and MLOps workflows using Docker and SQL"),
-    emoji("⚡ Share my love for AI while speaking to crowds over 300 hundred prospective families and donors as a Bagley Ambassador"),
-    emoji("⚡ Empower 200+ members toward academic success as a New Member Academic Specialist for ADPi"),
-    emoji("⚡ Mentor students in Data Structures and Algorithmic efficiency as a University Teaching Assistant")
+    emoji("⚡ Architect automated, robust ETL/ELT pipelines and SQL-driven data models for large-scale industrial operations"),
+    emoji("⚡ Build interactive Power BI & Tableau dashboards and digital performance dialog systems for executive decision-support"),
+    emoji("⚡ Lead Agile/Scrum ceremonies, user story mapping, and sprint setups to digitize operational site workflows"),
+    emoji("⚡ Develop Agentic AI, NLP pipelines, and LLM-driven applications using Gemini API and FastAPI"),
+    emoji("⚡ Apply Explainable AI (XAI) and Docker containerization to deliver transparent, auditable, and secure models"),
+    emoji("⚡ Present predictive analytics and operational capstones to executive leadership audiences of over 300 stakeholders")
   ],
   softwareSkills: [
     { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "power-bi", fontAwesomeClassname: "fas fa-chart-pie" },
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "pytorch", fontAwesomeClassname: "fas fa-brain" },
     { skillName: "tensorflow", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
     { skillName: "cpp", fontAwesomeClassname: "fab fa-cuttlefish" },
-    { skillName: "openCV", fontAwesomeClassname: "fas fa-camera" },
-    { skillName: "shell", fontAwesomeClassname: "fas fa-terminal" },
-    { skillName: "github", fontAwesomeClassname: "fab fa-github" }
+    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" }
   ],
   display: true
 };
@@ -65,10 +66,11 @@ const educationInfo = {
       logo: require("./assets/images/msstateLogo.png"),
       subHeader: "B.S. in Artificial Intelligence, Minor in Cognitive Science",
       duration: "August 2023 – May 2027",
-      desc: "Dean’s & President’s List every semester. GPA: 3.9",
+      desc: "President's List (4 Semesters), Dean’s List (2 Semesters). GPA: 3.92",
       descBullets: [
         "New Member Academic Specialist, Alpha Delta Pi (highest new member GPA in chapter history)",
         "Communications Chair, Honors Council",
+        "Bagley College of Engineering Ambassador",
         "Member: Society of Women Engineers, AI Club"
       ]
     }
@@ -78,9 +80,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Machine Learning", progressPercentage: "90%" },
-    { Stack: "Python/C++ Programming", progressPercentage: "85%" },
-    { Stack: "Data Pipelines & Vision", progressPercentage: "80%" }
+    { Stack: "Data Engineering & Pipelines (SQL, ETL)", progressPercentage: "92%" },
+    { Stack: "Business Intelligence (Power BI, Tableau)", progressPercentage: "90%" },
+    { Stack: "AI, Machine Learning & NLP", progressPercentage: "88%" },
+    { Stack: "Python, C++ & Cloud/DevOps", progressPercentage: "85%" }
   ],
   displayCodersrank: false
 };
@@ -89,25 +92,39 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Machine Learning Intern",
+      role: "Data Scientist & Engineering Co-op",
+      company: "SSAB",
+      companylogo: require("./assets/images/ssabLogo.png"),
+      date: "Aug 2026 – Dec 2026",
+      desc: "Build automated ETL/ELT pipelines to ingest, cleanse, and structure mill-wide manufacturing datasets. Design enterprise Tableau dashboards and SQL models to optimize industrial throughput and operational governance."
+    },
+    {
+      role: "Business Data Analyst Intern",
+      company: "DHL Supply Chain (Nike Operations)",
+      companylogo: require("./assets/images/dhlLogo.png"),
+      date: "May 2026 – Aug 2026",
+      desc: "Served as Agile/Scrum lead building story cards and digitizing site workflows. Deployed Power BI performance boards and presented predictive logistics capstone models to an executive audience of 300+ stakeholders."
+    },
+    {
+      role: "Machine Learning Research Intern",
       company: "U.S. Army ERDC",
       companylogo: require("./assets/images/erdcLogo.png"),
-      date: "May 2025 – Present",
-      desc: "Improved object detection accuracy using Grad-CAM on unclassified traffic sign frames. Automated preprocessing of PII-compliant datasets in secure DoD environments."
+      date: "May 2025 – Aug 2025",
+      desc: "Engineered automated ETL pipelines for sensitive datasets with 100% PII compliance. Applied Explainable AI (XAI) and Grad-CAM for model auditability, containerizing environments via Docker."
     },
     {
       role: "Undergraduate Research Assistant",
       company: "Mississippi State University",
       companylogo: require("./assets/images/msstateLogo.png"),
-      date: "Jan 2025 – Present",
-      desc: "Trained AI models for TurtleBot navigation, contributing to an NSF-funded ML camp reaching 200+ high school students."
+      date: "Jan 2025 – May 2025",
+      desc: "Integrated machine learning architectures in C++ and Python for real-time inference and autonomous robotic frameworks."
     },
     {
       role: "Teaching Assistant – Data Structures (CSE 2383)",
       company: "Mississippi State University",
       companylogo: require("./assets/images/CSLogo.png"),
-      date: "Aug 2024 – Present",
-      desc: "Assist with grading, tutoring, and guiding students through foundational CS topics."
+      date: "Aug 2024 – Dec 2024",
+      desc: "Mentored 50+ students in algorithmic problem solving, computational complexity, memory management, and structured debugging."
     }
   ]
 };
@@ -130,7 +147,7 @@ const bigProjects = {
     {
       image: require("./assets/images/sentiment.png"),
       projectName: "Retail Insight Engine",
-      projectDesc: "Built full-stack NLP pipelines with Gemini API to transform unstructured reviews into actionable retail insights.",
+      projectDesc: "Built full-stack NLP pipelines with Gemini API & FastAPI to transform unstructured customer reviews into actionable retail insights.",
       footerLink: []
     },
     {
@@ -141,8 +158,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/battlesnakeLogo.png"),
-      projectName: "Snake Game AI",
-      projectDesc: "Implemented Minimax + Alpha-Beta pruning for an autonomous agent with 100% test survival.",
+      projectName: "Autonomous Decision Snake AI",
+      projectDesc: "Implemented A* and Minimax with Alpha-Beta pruning for an autonomous agent with 100% test survival; won 1st place among 50+ competitors.",
       footerLink: []
     }
   ],
@@ -165,17 +182,16 @@ const achievementSection = {
         }
       ]
     },
-
     {
-      title: "Dean’s & President’s List",
-      subtitle: "Maintained 4.0 GPA for multiple terms while leading student organizations",
+      title: "President’s & Dean’s List",
+      subtitle: "Maintained 3.93 GPA across multiple terms while leading campus engineering organizations",
       image: require("./assets/images/awardLogo.png"),
       imageAlt: "GPA Honor",
       footerLink: [
-          {
-            name: "View Merit Page",
-            url: "https://meritpages.com/laya-karavadi"
-          }
+        {
+          name: "View Merit Page",
+          url: "https://meritpages.com/laya-karavadi"
+        }
       ]
     }
   ],
@@ -211,7 +227,6 @@ const resumeSection = {
   display: true
 };
 
-// <-- NEW EXTRACURRICULARS SECTION ADDED HERE
 const extracurricularsSection = {
   title: "Extracurriculars & Leadership",
   subtitle: "Active participant and leader in student organizations and initiatives",
@@ -219,26 +234,22 @@ const extracurricularsSection = {
     {
       role: "New Member Academic Specialist",
       organization: "Alpha Delta Pi",
-      details:
-        "Achieved highest new member GPA (3.7+) in chapter history."
+      details: "Achieved highest new member GPA (3.7+) in chapter history."
     },
     {
       role: "Communications Chair",
       organization: "Honors Council",
-      details:
-        "Created engaging TikToks and Instagram posts to boost student involvement."
+      details: "Created engaging content and media campaigns to boost student involvement."
     },
     {
-      role: "Member",
-      organization: "Society of Women Engineers",
-      details:
-        "Participated in community events and professional development."
+      role: "Bagley Engineering Ambassador",
+      organization: "Bagley College of Engineering",
+      details: "Represented the College of Engineering at university recruitment events and alumni panels."
     },
     {
       role: "Member",
       organization: "AI Club",
-      details:
-        "Attended lectures on emerging AI topics and organized meetups."
+      details: "Organized machine learning workshops and collaborative technical sessions."
     }
   ],
   display: true
@@ -265,53 +276,42 @@ export const extracurriculars = {
       date: "Fall 2024 – Present",
       desc: "Facilitated academic success initiatives and study programs for new members.",
       logo_path: "adpiLogo.png",
-      link: "https://www.instagram.com/msuadpi/" 
+      link: "https://www.instagram.com/msuadpi/"
     },
     {
       name: "Bagley Ambassadors",
-      role: "Secretary",
-      date: "Jan 2024 - Present",
+      role: "Ambassador",
+      date: "Jan 2024 – Present",
       desc: "Represent the College of Engineering at university and outreach events.",
       logo_path: "bagleyLogo.png",
       link: "https://www.bagley.msstate.edu/bagleyambassadors/"
     },
     {
       name: "Honors Council",
-      role: "Member",
+      role: "Communications Chair",
       logo_path: "hocoLogo.png",
-      date: "Aug 2023 - Present",
-      desc: "Help organize events and policy discussions for the Shackouls Honors College.",
+      date: "Aug 2023 – Present",
+      desc: "Lead student communications and event promotions for the Shackouls Honors College.",
       link: "https://www.instagram.com/honorscouncil_msu/"
     },
     {
       name: "Society of Women Engineers",
       role: "Member",
       logo_path: "sweLogo.png",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 – Present",
       desc: "Engage with engineering outreach, networking, and leadership development.",
       link: "https://www.instagram.com/swemsu/"
-    },
-    {
-      name: "Association of Computing Machinery",
-      role: "Member",
-      logo_path: "acmLogo.png",
-      date: "Jan 2024 - Present",
-      desc: "Participate in hackathons, technical talks, and collaborative projects.",
-      link: "https://www.instagram.com/msstate_acm/"
     },
     {
       name: "AI Club",
       role: "Member",
       logo_path: "aiLogo.png",
-      date: "Jan 2024 - Present",
+      date: "Jan 2024 – Present",
       desc: "Explore machine learning topics through workshops and speaker series.",
       link: "https://www.instagram.com/msuaiclub/"
     }
-  ],
-
+  ]
 };
-
-
 
 const isHireable = true;
 
@@ -331,7 +331,7 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  extracurricularsSection, 
+  extracurricularsSection,
   twitterDetails,
   isHireable,
   resumeSection
