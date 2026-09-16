@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.scss";
 
-export default function Button({ text, className = "", href, newTab = false }) {
+export default function Button({text, className = "", href, newTab = false}) {
   if (href) {
     return (
       <a
@@ -15,9 +15,5 @@ export default function Button({ text, className = "", href, newTab = false }) {
       </a>
     );
   }
-  return (
-    <button className={`main-button ${className}`}>
-      {text}
-    </button>
-  );
+  return <button className={`main-button ${className}`}>{text}</button>;
 }

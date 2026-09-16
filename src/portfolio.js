@@ -37,23 +37,35 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "Data & AI Engineer | BI & Analytics Specialist | Technical Leader",
   skills: [
-    emoji("⚡ Architect automated, robust ETL/ELT pipelines and SQL-driven data models for large-scale industrial operations"),
-    emoji("⚡ Build interactive Power BI & Tableau dashboards and digital performance dialog systems for executive decision-support"),
-    emoji("⚡ Lead Agile/Scrum ceremonies, user story mapping, and sprint setups to digitize operational site workflows"),
-    emoji("⚡ Develop Agentic AI, NLP pipelines, and LLM-driven applications using Gemini API and FastAPI"),
-    emoji("⚡ Apply Explainable AI (XAI) and Docker containerization to deliver transparent, auditable, and secure models"),
-    emoji("⚡ Present predictive analytics and operational capstones to executive leadership audiences of over 300 stakeholders")
+    emoji(
+      "⚡ Architect automated, robust ETL/ELT pipelines and SQL-driven data models for large-scale industrial operations"
+    ),
+    emoji(
+      "⚡ Build interactive Power BI & Tableau dashboards and digital performance dialog systems for executive decision-support"
+    ),
+    emoji(
+      "⚡ Lead Agile/Scrum ceremonies, user story mapping, and sprint setups to digitize operational site workflows"
+    ),
+    emoji(
+      "⚡ Develop Agentic AI, NLP pipelines, and LLM-driven applications using Gemini API and FastAPI"
+    ),
+    emoji(
+      "⚡ Apply Explainable AI (XAI) and Docker containerization to deliver transparent, auditable, and secure models"
+    ),
+    emoji(
+      "⚡ Present predictive analytics and operational capstones to executive leadership audiences of over 300 stakeholders"
+    )
   ],
   softwareSkills: [
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "tableau", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "power-bi", fontAwesomeClassname: "fas fa-chart-pie" },
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "pytorch", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "tensorflow", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "cpp", fontAwesomeClassname: "fab fa-cuttlefish" },
-    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" }
+    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "sql-database", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "tableau", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "power-bi", fontAwesomeClassname: "fas fa-chart-pie"},
+    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "pytorch", fontAwesomeClassname: "fas fa-brain"},
+    {skillName: "tensorflow", fontAwesomeClassname: "fas fa-robot"},
+    {skillName: "cpp", fontAwesomeClassname: "fab fa-cuttlefish"},
+    {skillName: "git", fontAwesomeClassname: "fab fa-git-alt"}
   ],
   display: true
 };
@@ -80,10 +92,16 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Data Engineering & Pipelines (SQL, ETL)", progressPercentage: "92%" },
-    { Stack: "Business Intelligence (Power BI, Tableau)", progressPercentage: "90%" },
-    { Stack: "AI, Machine Learning & NLP", progressPercentage: "88%" },
-    { Stack: "Python, C++ & Cloud/DevOps", progressPercentage: "85%" }
+    {
+      Stack: "Data Engineering & Pipelines (SQL, ETL)",
+      progressPercentage: "92%"
+    },
+    {
+      Stack: "Business Intelligence (Power BI, Tableau)",
+      progressPercentage: "90%"
+    },
+    {Stack: "AI, Machine Learning & NLP", progressPercentage: "88%"},
+    {Stack: "Python, C++ & Cloud/DevOps", progressPercentage: "85%"}
   ],
   displayCodersrank: false
 };
@@ -141,25 +159,29 @@ const bigProjects = {
     {
       image: require("./assets/images/fedex.png"),
       projectName: "Logistics Dashboard",
-      projectDesc: "Designed enterprise visualization tools with FedEx to identify operational trends and bottlenecks via data storytelling.",
+      projectDesc:
+        "Designed enterprise visualization tools with FedEx to identify operational trends and bottlenecks via data storytelling.",
       footerLink: []
     },
     {
       image: require("./assets/images/sentiment.png"),
       projectName: "Retail Insight Engine",
-      projectDesc: "Built full-stack NLP pipelines with Gemini API & FastAPI to transform unstructured customer reviews into actionable retail insights.",
+      projectDesc:
+        "Built full-stack NLP pipelines with Gemini API & FastAPI to transform unstructured customer reviews into actionable retail insights.",
       footerLink: []
     },
     {
       image: require("./assets/images/WRFLogo.png"),
       projectName: "Urban Wind Modeling with WRF",
-      projectDesc: "Built computational wind simulations and enhanced predictive accuracy by 70%.",
+      projectDesc:
+        "Built computational wind simulations and enhanced predictive accuracy by 70%.",
       footerLink: []
     },
     {
       image: require("./assets/images/battlesnakeLogo.png"),
       projectName: "Autonomous Decision Snake AI",
-      projectDesc: "Implemented A* and Minimax with Alpha-Beta pruning for an autonomous agent with 100% test survival; won 1st place among 50+ competitors.",
+      projectDesc:
+        "Implemented A* and Minimax with Alpha-Beta pruning for an autonomous agent with 100% test survival; won 1st place among 50+ competitors.",
       footerLink: []
     }
   ],
@@ -172,7 +194,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "DoD Certification Series",
-      subtitle: "Completed multiple Department of Defense trainings and certifications",
+      subtitle:
+        "Completed multiple Department of Defense trainings and certifications",
       image: require("./assets/images/dodLogo.png"),
       imageAlt: "DoD Logo",
       footerLink: [
@@ -184,7 +207,8 @@ const achievementSection = {
     },
     {
       title: "President’s & Dean’s List",
-      subtitle: "Maintained 3.93 GPA across multiple terms while leading campus engineering organizations",
+      subtitle:
+        "Maintained 3.93 GPA across multiple terms while leading campus engineering organizations",
       image: require("./assets/images/awardLogo.png"),
       imageAlt: "GPA Honor",
       footerLink: [
@@ -223,13 +247,15 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  resumeLink: "https://drive.google.com/file/d/1bbu__suuygKEQeOpgnBMEY45hAyrDNOH/view?usp=drive_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1bbu__suuygKEQeOpgnBMEY45hAyrDNOH/view?usp=drive_link",
   display: true
 };
 
 const extracurricularsSection = {
   title: "Extracurriculars & Leadership",
-  subtitle: "Active participant and leader in student organizations and initiatives",
+  subtitle:
+    "Active participant and leader in student organizations and initiatives",
   activities: [
     {
       role: "New Member Academic Specialist",
@@ -239,17 +265,20 @@ const extracurricularsSection = {
     {
       role: "Communications Chair",
       organization: "Honors Council",
-      details: "Created engaging content and media campaigns to boost student involvement."
+      details:
+        "Created engaging content and media campaigns to boost student involvement."
     },
     {
       role: "Bagley Engineering Ambassador",
       organization: "Bagley College of Engineering",
-      details: "Represented the College of Engineering at university recruitment events and alumni panels."
+      details:
+        "Represented the College of Engineering at university recruitment events and alumni panels."
     },
     {
       role: "Member",
       organization: "AI Club",
-      details: "Organized machine learning workshops and collaborative technical sessions."
+      details:
+        "Organized machine learning workshops and collaborative technical sessions."
     }
   ],
   display: true

@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./Extracurriculars.scss";
 import StyleContext from "../../contexts/StyleContext";
-import { extracurriculars } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {extracurriculars} from "../../portfolio";
+import {Fade} from "react-reveal";
 import Button from "../../components/button/Button";
 
 export default function Extracurriculars() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   if (!extracurriculars.display) return null;
 
@@ -18,7 +18,10 @@ export default function Extracurriculars() {
             <h1 className="experience-heading">Extracurriculars</h1>
             <div className="experience-cards-div">
               {extracurriculars.clubs.map((club, i) => (
-                <div key={i} className={`experience-card ${isDark ? "dark" : ""}`}>
+                <div
+                  key={i}
+                  className={`experience-card ${isDark ? "dark" : ""}`}
+                >
                   <img
                     className="experience-card-logo"
                     src={require(`../../assets/images/${club.logo_path}`)}

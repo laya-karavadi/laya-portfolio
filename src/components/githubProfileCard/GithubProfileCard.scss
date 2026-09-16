@@ -26,7 +26,7 @@
 }
 
 .opp-div {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .row {
@@ -110,7 +110,7 @@
     color: $subTitle;
     text-decoration: none;
   }
-  
+
   .contact-detail:hover {
     color: $textColor;
     text-shadow: 2px 1px 2px $contactDetailHoverTS;
@@ -120,6 +120,4 @@
     font-weight: bold;
     font-size: 1.5em; /* slightly bigger */
   }
-  
-  
 }

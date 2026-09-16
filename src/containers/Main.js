@@ -21,7 +21,6 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 
-
 import "./Main.scss";
 
 const Main = () => {
