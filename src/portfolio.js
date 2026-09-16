@@ -22,7 +22,7 @@ const greeting = {
     "A senior Artificial Intelligence student passionate about scalable data engineering, applied AI, and enterprise analytics. Experienced in building production ETL pipelines, predictive models, and BI decision tools across logistics and heavy manufacturing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1JddLd2_GxGn6w4ziAikFGGE_cRVDwfCY/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1bKhbePv1bAU8ljGSWCX6ubicGHWvqcp6?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto",
   displayGreeting: true
 };
 
