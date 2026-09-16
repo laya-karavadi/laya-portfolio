@@ -246,9 +246,9 @@ const podcastSection = {
 
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "Feel free to view my resume!",
   resumeLink:
-    "https://drive.google.com/file/d/1bbu__suuygKEQeOpgnBMEY45hAyrDNOH/view?usp=drive_link",
+  "https://drive.google.com/file/d/1DipfPdDB8qJV9SDTyXXkp3egI0NWgyDB/view?usp=drive_link",
   display: true
 };
 
